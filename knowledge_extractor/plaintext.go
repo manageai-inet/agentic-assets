@@ -92,7 +92,7 @@ func (p *PlainTextConverter) Convert(ctx context.Context, kbId string, sourceNam
 	logger.InfoContext(ctx, "PlainText converted successfully", slog.String("kbId", kbId), slog.String("sourceName", sourceName), slog.String("sourceUrl", sourceUrl))
 	return []am.KnowledgeSource{
 		{
-			SourceType: "plain-text",
+			SourceType: am.AssetTypePage,
 			SourceName: kbId + ":" + sourceName + ":1",
 			SourceUrl:  &sourceUrl,
 			SourceData: &data,
