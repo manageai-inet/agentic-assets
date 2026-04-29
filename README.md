@@ -1,5 +1,8 @@
 # agentic-assets
 
+[![GitHub release](https://img.shields.io/github/v/release/manageai-inet/agentic-assets?label=version)](https://github.com/manageai-inet/agentic-assets/releases)
+[![Go Reference](https://pkg.go.dev/badge/github.com/manageai-inet/agentic-assets.svg)](https://pkg.go.dev/github.com/manageai-inet/agentic-assets)
+
 A Go library providing abstraction layers for asset management, indexing, vector storage, and knowledge extraction in AI-powered applications.
 
 ## Overview
